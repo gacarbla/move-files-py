@@ -1,20 +1,22 @@
 import os
-
-os.system("pip install tkinter")
-os.system("pip install shutil")
-
 from tkinter import *
 from tkinter import messagebox
 from tkinter import filedialog
 import shutil
 
 messagebox.showinfo("", "Seleccione una carpeta de origen")
-folder_selected = filedialog.askdirectory()
-dirInicio = f'{folder_selected}'
+folder_selected_1 = filedialog.askdirectory()
+if (not folder_selected_1 or folder_selected_1==""):
+    messagebox.showerror("", "Es estrictamente necesaria la selección de un directorio de origen")
+    exit()
+dirInicio = f'{folder_selected_1}'
 contenido = os.listdir(dirInicio)
 
 messagebox.showinfo("", "Seleccione una carpeta de vertido")
 folder_selected = filedialog.askdirectory()
+if (not folder_selected or folder_selected==""):
+    messagebox.showerror("", "Es estrictamente necesaria la selección de un directorio de vertido")
+    exit()
 dirFinal = f'{folder_selected}'
 
 x = 0
