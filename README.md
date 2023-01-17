@@ -30,11 +30,11 @@ Para poder ejecutar este código necesitará cumplir con los siguientes requisit
 <br><br><br><br>
 
 ## DESCARGA
-Versión    | BETA? | Windows                                                                                          
-:--------: | :---: | :-----------------------------------------------------------------------------------------------:
-`0.1`      | ✅   | [📥 Descargar](https://github.com/gacarbla/move-files-py/raw/main/versions/v0.1dev/files-mover.exe)
-`0.21`     | ✅   | [📥 Descargar](https://github.com/gacarbla/move-files-py/raw/main/versions/v0.21dev/files-mover.exe)
-`0.3`      | ✅   | 🚫 En desarrollo
+Versión    | Estable? | Windows                                                                                          
+:--------: | :------: | :-----------------------------------------------------------------------------------------------:
+`0.1`      | ❌      | [📥 Descargar](https://github.com/gacarbla/move-files-py/raw/main/versions/v0.1dev/files-mover.exe)
+`0.21`     | ❌      | [📥 Descargar](https://github.com/gacarbla/move-files-py/raw/main/versions/v0.21dev/files-mover.exe)
+`0.3`      | ❌      | 🚫 En desarrollo
 
 <br><br><br><br><br><br>
 
